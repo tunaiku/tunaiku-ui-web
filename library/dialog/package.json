@@ -1,13 +1,13 @@
 {
-  "name": "@amar-ui-web/dialog",
+  "name": "@tunaiku-ui-web/dialog",
   "version": "2.0.0",
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "@amar-ui-web/elevation": "^2.0.0",
-    "@amar-ui-web/shape": "^2.0.0",
-    "@amar-ui-web/spacing": "^2.0.0",
-    "@amar-ui-web/typography": "^2.0.0"
+    "@tunaiku-ui-web/elevation": "^2.0.0",
+    "@tunaiku-ui-web/shape": "^2.0.0",
+    "@tunaiku-ui-web/spacing": "^2.0.0",
+    "@tunaiku-ui-web/typography": "^2.0.0"
   },
   "publishConfig": {
     "access": "public"

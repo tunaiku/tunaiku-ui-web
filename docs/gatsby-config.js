@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Amar UI Web',
-    titleTemplate: '%s · Amar UI Web',
+    title: 'Tunaiku UI Web',
+    titleTemplate: '%s · Tunaiku UI Web',
     description:
       '⚡️ CSS library of components, layouts and utilities based on Amar Design System ⚡️',
     author: `David Kurnia Kristiadi @dkk94`,

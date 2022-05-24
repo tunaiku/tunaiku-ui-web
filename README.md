@@ -1,10 +1,10 @@
-<h1 align="center">Amar UI Web</h1>
+<h1 align="center">Tunaiku UI Web</h1>
 
-[![GitHub license](https://img.shields.io/github/license/tunaiku/amar-ui-web)](https://github.com/tunaiku/amar-ui-web/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/tunaiku/tunaiku-ui-web)](https://github.com/tunaiku/tunaiku-ui-web/blob/master/LICENSE)
 
-Amar UI for Web (or simply Amar UI Web) is a CSS library built in Sass/SCSS that follows **Amar
-Design System** as its primary foundation. Amar UI Web aims to enhance the UI/X development workflow
-of web projects and applications within Amar Bank.
+Tunaiku UI for Web (or simply Tunaiku UI Web) is a CSS library built in Sass/SCSS that follows
+**Amar Design System** as its primary foundation. Tunaiku UI Web aims to enhance the UI/X
+development workflow of web projects and applications within Amar Bank.
 
 ## Important Links
 
@@ -16,19 +16,19 @@ of web projects and applications within Amar Bank.
 
 ## Installation
 
-Amar UI Web is available via **package managers**.
+Tunaiku UI Web is available via **package managers**.
 
 ```bash
-$ npm install @amar-ui-web/core
-$ yarn add @amar-ui-web/core
+$ npm install @tunaiku-ui-web/core
+$ yarn add @tunaiku-ui-web/core
 ```
 
 ## Usage
 
 Please check our [Getting Started](https://amar-ui.netlify.app/getting-started) documentation for
-more information on how to setup and use Amar UI Web.
+more information on how to setup and use Tunaiku UI Web.
 
 ## Contribute
 
 Interested in contributing in the project? Refer to our
-[contribution guide](https://github.com/tunaiku/amar-ui-web/blob/master/.github/CONTRIBUTING.md)!
+[contribution guide](https://github.com/tunaiku/tunaiku-ui-web/blob/master/.github/CONTRIBUTING.md)!
