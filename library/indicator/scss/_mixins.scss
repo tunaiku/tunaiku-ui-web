@@ -1,0 +1,48 @@
+@import '@tunaiku-ui-web/core/helpers';
+@import '@tunaiku-ui-web/color/scss';
+@import '@tunaiku-ui-web/shape/scss';
+@import '@tunaiku-ui-web/spacing/scss';
+@import './variables';
+
+@mixin amb-create-indicator-classes() {
+  .Indicator {
+    display: flex;
+    justify-content: center;
+
+    &--start {
+      justify-content: flex-start;
+    }
+
+    &--end {
+      justify-content: flex-end;
+    }
+
+
+    &-point {
+      width: $amb-indicator-point-width;
+      height: $amb-indicator-point-height;
+      display: inline-block;
+      margin-right: amb-spacing('xsmall');
+      background-color: amb-neutral();
+      border-radius: amb-border-radius('round');
+      cursor: pointer;
+
+      &:hover{
+        @include amb-indicator-point-active();
+      }
+
+      &.is-active {
+        @include amb-indicator-point-active();
+      }
+    }
+  }
+}
+
+@mixin amb-indicator-point-active() {
+  background-color: amb-color-theme('info');
+  border-radius: amb-border-radius('base');
+  width: $amb-indicator-point-active-width;
+  height: $amb-indicator-point-active-height;
+}
+
+
